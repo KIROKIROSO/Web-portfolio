@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=PT+Sans&display=swap");
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.about {
+  background: rgba(25, 135, 84, 0.2);
+  padding-top: 4em;
+}
+
+.project {
+  padding-top: 4em;
+}
+
+.d-nav .brand, .d-nav .n-link {
+  color: #198754;
+}
+.d-nav .brand {
+  font-family: "Encode Sans SC", sans-serif;
+}
+.d-nav .n-link:hover {
+  color: #1d9d61;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  flex-wrap: wrap;
+  text-align: center;
+  border-top: gray solid 1px;
+}
